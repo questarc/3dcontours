@@ -53,14 +53,6 @@ def main():
     # Display the plot
     st.plotly_chart(fig, use_container_width=True)
 
-    # Instructions
-    with st.expander("How to Run This App"):
-        st.markdown("""
-        1. Save this code as `app.py`.
-        2. Install dependencies: `pip install streamlit numpy plotly`.
-        3. Run the app: `streamlit run app.py`.
-        4. Open the provided URL in your browser to interact with the plot.
-        """)
-
+    
 if __name__ == "__main__":
     main()
